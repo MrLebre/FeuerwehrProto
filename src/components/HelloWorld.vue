@@ -33,7 +33,7 @@ export default class HelloWorld extends Vue {
   private msg: any = {};
 
   private msgs = [
-    { xLower: 0.0, xUpper: 0.5, yLower: 0.0, yUpper: 0.5, title: "Fenster",  text: "Willst du das Fenster öffnen?", options: ["Öffnen", "Schließen"]},
+    { xLower: 0.38270142180094785, xUpper: 0.6623222748815166, yLower: 0.1191370541501845, yUpper: 0.5042050327427451, title: "Wohnungsfenster",  text: "Möchtest du das geschlossene Fenster öffnen?", options: ["Öffnen", "Nichts Tun"]},
   ];
 
   private onImageClick(event: MouseEvent) {
